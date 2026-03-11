@@ -22,7 +22,6 @@ This assessment includes practical coding exercises focused on clinical trial re
 
 ## Overview
 Creates a Treatment-Emergent Adverse Event (TEAE) summary table using `pharmaverseadam::adsl` and `pharmaverseadam::adae`.
-- HTML output
 
 ## Implementation
 
@@ -52,7 +51,7 @@ Creates a stacked bar chart visualizing adverse events by System Organ Class and
 ## Overview
 Creates an interactive Shiny dashboard that displays the adverse event severity visualization from Question 2.
 
-## Implementation Details
+## Implementation
 
 - Uses `pharmaverseadam::adae` as the input dataset.
 - Allows users to filter the visualization by treatment arm (`ACTARM`).
